@@ -1,0 +1,33 @@
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\DataLayer\bin\Debug\netstandard2.0\DataLayer.deps.json
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\DataLayer\bin\Debug\netstandard2.0\DataLayer.dll
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\DataLayer\bin\Debug\netstandard2.0\DataLayer.pdb
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\DataLayer\obj\Debug\netstandard2.0\DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\DataLayer\obj\Debug\netstandard2.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfo.cs
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\DataLayer\obj\Debug\netstandard2.0\DataLayer.dll
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\DataLayer\obj\Debug\netstandard2.0\DataLayer.pdb
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\bin\Debug\netstandard2.0\DataLayer.deps.json
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\bin\Debug\netstandard2.0\DataLayer.dll
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\bin\Debug\netstandard2.0\DataLayer.pdb
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\bin\Debug\netstandard2.0\DB.Core.dll
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\bin\Debug\netstandard2.0\DB.Core.pdb
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\obj\Debug\netstandard2.0\DataLayer.csprojAssemblyReference.cache
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\obj\Debug\netstandard2.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfoInputs.cache
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfo.cs
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\obj\Debug\netstandard2.0\DataLayer.csproj.CopyComplete
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\obj\Debug\netstandard2.0\DataLayer.dll
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\DataLayer\obj\Debug\netstandard2.0\DataLayer.pdb
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\bin\Debug\netstandard2.0\DataLayer.deps.json
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\bin\Debug\netstandard2.0\DataLayer.dll
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\bin\Debug\netstandard2.0\DataLayer.pdb
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\bin\Debug\netstandard2.0\DB.Core.dll
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\bin\Debug\netstandard2.0\DB.Core.pdb
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\obj\Debug\netstandard2.0\DataLayer.csprojAssemblyReference.cache
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\obj\Debug\netstandard2.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfoInputs.cache
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfo.cs
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\obj\Debug\netstandard2.0\DataLayer.csproj.CopyComplete
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\obj\Debug\netstandard2.0\DataLayer.dll
+C:\PIsh\Pish_Asia_DotnetCore\DataLayer\obj\Debug\netstandard2.0\DataLayer.pdb

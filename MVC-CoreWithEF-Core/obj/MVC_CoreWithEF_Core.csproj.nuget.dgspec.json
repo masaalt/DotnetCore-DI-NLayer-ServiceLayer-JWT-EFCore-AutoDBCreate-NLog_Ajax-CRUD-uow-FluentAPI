@@ -1,0 +1,273 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PIsh\\Pish_Asia_DotnetCore\\MVC-CoreWithEF-Core\\MVC_CoreWithEF_Core.csproj": {}
+  },
+  "projects": {
+    "C:\\PIsh\\Pish_Asia_DotnetCore\\DataLayer\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PIsh\\Pish_Asia_DotnetCore\\DataLayer\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\EHsan\\.nuget\\packages\\",
+        "outputPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EHsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\DB.Core.csproj": {
+                "projectPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\DB.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\DB.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\DB.Core.csproj",
+        "projectName": "DB.Core",
+        "projectPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\DB.Core.csproj",
+        "packagesPath": "C:\\Users\\EHsan\\.nuget\\packages\\",
+        "outputPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EHsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.11, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\PIsh\\Pish_Asia_DotnetCore\\MVC-CoreWithEF-Core\\MVC_CoreWithEF_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PIsh\\Pish_Asia_DotnetCore\\MVC-CoreWithEF-Core\\MVC_CoreWithEF_Core.csproj",
+        "projectName": "MVC_CoreWithEF_Core",
+        "projectPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\MVC-CoreWithEF-Core\\MVC_CoreWithEF_Core.csproj",
+        "packagesPath": "C:\\Users\\EHsan\\.nuget\\packages\\",
+        "outputPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\MVC-CoreWithEF-Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EHsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\DB.Core.csproj": {
+                "projectPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\DB.Core.csproj"
+              },
+              "C:\\PIsh\\Pish_Asia_DotnetCore\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\ServiceLayer\\ServiceLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.11, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\PIsh\\Pish_Asia_DotnetCore\\ServiceLayer\\ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PIsh\\Pish_Asia_DotnetCore\\ServiceLayer\\ServiceLayer.csproj",
+        "projectName": "ServiceLayer",
+        "projectPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\EHsan\\.nuget\\packages\\",
+        "outputPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\ServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EHsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\PIsh\\Pish_Asia_DotnetCore\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\DataLayer\\DataLayer.csproj"
+              },
+              "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\DB.Core.csproj": {
+                "projectPath": "C:\\PIsh\\Pish_Asia_DotnetCore\\DB.Core\\DB.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

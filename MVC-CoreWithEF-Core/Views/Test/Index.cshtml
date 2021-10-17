@@ -1,0 +1,156 @@
+﻿
+<script src="//code.jquery.com/jquery-1.12.3.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+View Page Code
+@{
+    ViewBag.Title = "Index";
+}
+<link href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet" />
+<h2>Ajax Table Columns Search</h2>
+<table id="tblPopulation">
+    <thead>
+        <tr>
+            <td>EmpId</td>
+            <td>EmpName</td>
+            <td>EmpFamilyName</td>
+            <td>EmpFatherName</td>
+            <td>NationalCode</td>
+            <td>mobile</td>
+            <td>image</td>
+            <td>Action</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="txtEmpId" />
+            </td>
+            <td>
+                <input type="text" id="txtEmpName"/>
+            </td>
+            <td>
+                <input type="text" id="txtEmpFamilyName"/>
+            </td>
+            <td>
+                <input type="text" id="txtEmpFatherName"/>
+            </td>
+            <td>
+                <input type="text" id="txtNationalCode"/>
+            </td>
+            <td>
+                <input type="text" id="txtmobile"/>
+            </td>
+            <td>
+                <input type="image" id="txtimage"/>
+            </td>
+            @*<td colspan="2" align="center">
+                <input type="button" id="btnUpdate" value="Update" class="btn btn-primary" />
+            </td>*@
+        </tr>
+    </thead>
+
+</table>
+@section Scripts {
+    <script src="//code.jquery.com/jquery-1.12.3.js"></script>
+    <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script>
+
+    $(document).ready(function () {
+        $.ajax({
+            url: '/Test/getPopulation',
+            dataType: "json",
+            type: "GET",
+            contentType: 'application/json; charset=utf-8',
+            data: {},
+            success: function (data) {
+                var tr;
+                console.log(data);
+                for (var i = 0; i < data.length; i++) {
+                    tr = tr + "<tr>";
+                    tr = tr + "<td><input type='text' id='empId" + data[i].empId + "' value = " + data[i].empId + "></td>";
+                    tr = tr + "<td><input type='text' id='empName" + data[i].empId + "' value = " + data[i].empName + "></td>";
+                    tr = tr + "<td><input type='text' id='empFamilyName" + data[i].empId + "' value = " + data[i].empFamilyName + "></td>";
+                    tr = tr + "<td><input type='text' id='empFatherName" + data[i].empId + "' value = " + data[i].empFatherName + "></td>";
+                    tr = tr + "<td><input type='text' id='nationalCode" + data[i].empId + "' value = " + data[i].nationalCode + "></td>";
+                    tr = tr + "<td><input type='text' id='mobile" + data[i].empId + "' value = " + data[i].mobile + "></td>";
+                    tr = tr + "<td><input type='text' id='image" + data[i].empId + "' value = " + data[i].image + "></td>";
+                    //tr = tr + "<td>" + data[i].empName + "</td>";
+                    //tr = tr + "<td>" + data[i].empFamilyName + "</td>";
+                    //tr = tr + "<td>" + data[i].empFatherName + "</td>";
+                    //tr = tr + "<td>" + data[i].nationalCode + "</td>";
+                    //tr = tr + "<td>" + data[i].mobile + "</td>";
+                    //tr = tr + "<td>" + data[i].image + "</td>";
+                    tr = tr + "<td>" + "<input type='button' id='btnDelete' value='Delete' class='btn btn-danger' data-id='" + data[i].empId + "' />" + "</td>";
+                    tr = tr + "<td>" + "<input type='button' id='btnUpdate' value='Update' class='btn btn-danger' data-id='" + data[i].empId + "' />" + "</td>";
+                    tr = tr + "</tr>";
+                }
+                $('#tblPopulation').append(tr);
+                tblFormate();
+            },
+            error: function (xhr) {
+                alert('No Valid Data');
+            }
+        });
+
+        function tblFormate() {
+
+            var table = $('#tblPopulation').DataTable(
+             {
+                 //"searching": false,
+                 "lengthMenu": [[5, 10, 50, 100, 150, -1], [5, 10, 50, 100, 150, "All"]]
+             });
+            //Apply the search
+            table.columns().eq(0).each(function (colIdx) {
+                $('input', table.column(colIdx).header()).on('keyup change', function () {
+                    table
+                        .column(colIdx)
+                        .search(this.value)
+                        .draw();
+                });
+            });
+        }
+
+        $('#tblPopulation').on('click', '[id*=btnDelete]', function () {
+                if (confirm('Are you sure delete this record?')) {
+                    var employee = {};
+                    employee.empId = $(this).attr('data-id');
+                    $.ajax({
+                        type: "POST",
+                        url: "/Test/DeleteEmp",
+                        data: JSON.stringify(employee),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (r) {
+                            window.location.reload();
+                        }
+                    });
+                }
+        });
+
+        $('#tblPopulation').on('click', '[id*=btnUpdate]', function () {
+                if (confirm('Are you sure update this record?')) {
+                    var employee = {};
+                    employee.empId = $(this).attr('data-id');
+
+                    //employee.empId = $('[id*=EmpId]').val();
+                    employee.empName = $('[id*=empName'+employee.empId+']').val();
+                    employee.empFamilyName = $('[id*=empFamilyName'+employee.empId+']').val();
+                    employee.empFatherName = $('[id*=empFatherName'+employee.empId+']').val();
+                    employee.nationalCode = $('[id*=nationalCode'+employee.empId+']').val();
+                    employee.mobile = $('[id*=mobile'+employee.empId+']').val();
+                    employee.image = $('[id*=image'+employee.empId+']').val();
+                    $.ajax({
+                        type: "POST",
+                        url: "/Test/UpdateEmp",
+                        data: JSON.stringify(employee),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (r) {
+                            window.location.reload();
+                        }
+                    });
+                }
+            });
+
+    });
+    </script>
+
+}  

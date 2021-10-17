@@ -1,0 +1,37 @@
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\ServiceLayer\bin\Debug\netstandard2.0\ServiceLayer.deps.json
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\ServiceLayer\bin\Debug\netstandard2.0\ServiceLayer.dll
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\ServiceLayer\bin\Debug\netstandard2.0\ServiceLayer.pdb
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.dll
+C:\Users\asad.muhammad\Documents\Visual Studio 2017\Projects\MVC-CoreWithEF-Core\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.pdb
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\bin\Debug\netstandard2.0\ServiceLayer.deps.json
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\bin\Debug\netstandard2.0\ServiceLayer.dll
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\bin\Debug\netstandard2.0\ServiceLayer.pdb
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\bin\Debug\netstandard2.0\DataLayer.dll
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\bin\Debug\netstandard2.0\DB.Core.dll
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\bin\Debug\netstandard2.0\DataLayer.pdb
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\bin\Debug\netstandard2.0\DB.Core.pdb
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.csprojAssemblyReference.cache
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.AssemblyInfo.cs
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.csproj.CopyComplete
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.dll
+C:\PIsh\Asp.Net-MVC-Core-Architecture-and-CRUD-master\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.pdb
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\bin\Debug\netstandard2.0\ServiceLayer.deps.json
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\bin\Debug\netstandard2.0\ServiceLayer.dll
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\bin\Debug\netstandard2.0\ServiceLayer.pdb
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\bin\Debug\netstandard2.0\DataLayer.dll
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\bin\Debug\netstandard2.0\DB.Core.dll
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\bin\Debug\netstandard2.0\DataLayer.pdb
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\bin\Debug\netstandard2.0\DB.Core.pdb
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.csprojAssemblyReference.cache
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.AssemblyInfo.cs
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.csproj.CopyComplete
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.dll
+C:\PIsh\Pish_Asia_DotnetCore\ServiceLayer\obj\Debug\netstandard2.0\ServiceLayer.pdb
